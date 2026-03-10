@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brooklynmaids.com/sitemap.xml
+
+Disallow: /api/
+Disallow: /login
+Disallow: /signup
+
+Crawl-delay: 1

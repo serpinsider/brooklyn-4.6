@@ -1,0 +1,181 @@
+export interface AddOn {
+  key: string;
+  label: string;
+  description: string;
+  icon: string;
+  tooltip?: string;
+}
+
+export const ADDONS: AddOn[] = [
+  // Top priority addons - in order requested
+  { 
+    key: 'insideFridge', 
+    label: 'Inside Fridge', 
+    description: 'Deep clean fridge', 
+    icon: 'inside-fridge.png',
+    tooltip: "We clean inside your fridge and make it spotless again."
+  },
+  { 
+    key: 'insideOven', 
+    label: 'Inside Oven', 
+    description: 'Deep clean oven', 
+    icon: 'inside-oven.png',
+    tooltip: "We clean the top and inside your oven."
+  },
+  { 
+    key: 'microwave', 
+    label: 'Microwave', 
+    description: 'Clean microwave', 
+    icon: 'microwave-clean.png',
+    tooltip: "We clean your microwave inside and out."
+  },
+  { 
+    key: 'organization', 
+    label: 'Organization', 
+    description: 'Organize spaces', 
+    icon: 'organization.png',
+    tooltip: "30 minutes of organizing, moving, doing anything you want us to do, weight limits may apply."
+  },
+  
+  // Other addons
+  { 
+    key: 'wallStainRemoval', 
+    label: 'Wall Stains', 
+    description: 'Stain removal', 
+    icon: 'wall-stain-removal.png',
+    tooltip: "We remove wall stains and marks."
+  },
+  { 
+    key: 'baseboardCleaning', 
+    label: 'Baseboards', 
+    description: 'Baseboard cleaning', 
+    icon: 'baseboard-cleaning.png',
+    tooltip: "Clean all baseboards."
+  },
+  { 
+    key: 'bedroomBathroomCabinets', 
+    label: 'Cabinet Cleaning', 
+    description: 'Clean all cabinets', 
+    icon: 'cabinets.png',
+    tooltip: "We clean the insides of your cabinets for an hour, this is included in Move Out Cleans."
+  },
+  { 
+    key: 'interiorWindows', 
+    label: 'Interior Windows', 
+    description: 'Clean windows', 
+    icon: 'blinds.png',
+    tooltip: "We wipe your windows on the inside, this is typically just 2 windows per addon."
+  },
+  { 
+    key: 'dishes', 
+    label: 'Dishes', 
+    description: 'Wash dishes', 
+    icon: 'dishes.png',
+    tooltip: "We do all your dishes."
+  },
+  { 
+    key: 'laundry', 
+    label: 'Laundry', 
+    description: 'Wash & fold', 
+    icon: 'laundry.png',
+    tooltip: "We do one or two loads of laundry depending on how long we're able to stay at your place while cleaning."
+  },
+  { 
+    key: 'hardwood', 
+    label: 'Hardwood Care', 
+    description: 'Wood treatment', 
+    icon: 'hardwood.png',
+    tooltip: "Hardwood floor care and treatment."
+  },
+  { 
+    key: 'basementCleaning', 
+    label: 'Basement', 
+    description: 'Full service', 
+    icon: 'basement-cleaning.png',
+    tooltip: "We clean your basement."
+  },
+  { 
+    key: 'petCleaning', 
+    label: 'Pet Cleaning', 
+    description: 'Pet hair removal', 
+    icon: 'pet-cleaning.png',
+    tooltip: "We do not charge this if your pet does not shed, select this if your pet sheds or need cleaning more than regular mess."
+  },
+  { 
+    key: 'washerDryer', 
+    label: 'Washer & Dryer', 
+    description: 'Clean appliances', 
+    icon: 'washing-machine.png',
+    tooltip: "We clean your washer and dryer inside and out."
+  },
+  { 
+    key: 'officeCleaning', 
+    label: 'Office', 
+    description: 'Clean workspace', 
+    icon: 'office-cleaning.png',
+    tooltip: "We clean your home office space."
+  },
+  { 
+    key: 'dishwasher', 
+    label: 'Dishwasher', 
+    description: 'Deep clean dishwasher', 
+    icon: 'dishes.png',
+    tooltip: "We deep clean your dishwasher inside and out."
+  },
+  { 
+    key: 'handymanServices', 
+    label: 'Handyman', 
+    description: 'Minor repairs', 
+    icon: 'helmet.png',
+    tooltip: "30 minutes of handyman services for minor repairs and tasks."
+  },
+  { 
+    key: 'townhouse', 
+    label: 'Townhouse Clean', 
+    description: 'Multi-level homes', 
+    icon: 'townhouse.png',
+    tooltip: "Additional charge for multi-level homes and townhouses."
+  },
+  { 
+    key: 'insideKitchenCabinets', 
+    label: 'Kitchen Cabinets', 
+    description: 'Clean kitchen cabinets', 
+    icon: 'cabinets.png',
+    tooltip: "We clean the inside of your kitchen cabinets."
+  },
+  { 
+    key: 'extraHour', 
+    label: 'Extra Hour', 
+    description: 'Additional time', 
+    icon: 'extra-hour.png',
+    tooltip: "Add an extra hour of cleaning time for larger jobs."
+  },
+  { 
+    key: 'stairwayCleaning', 
+    label: 'Stairway Clean', 
+    description: 'Clean stairs', 
+    icon: 'stairs.png',
+    tooltip: "Deep cleaning for stairways and steps."
+  },
+  {
+    key: 'carpetCleaning',
+    label: 'Carpet Cleaning',
+    description: 'Deep carpet clean',
+    icon: 'carpet.png',
+    tooltip: "Professional carpet cleaning service."
+  },
+  {
+    key: 'tileAndGrout',
+    label: 'Tile & Grout',
+    description: 'Deep tile cleaning',
+    icon: 'shower-head.png',
+    tooltip: "Deep cleaning for tile and grout."
+  },
+  {
+    key: 'windowBlinds',
+    label: 'Window Blinds',
+    description: 'Clean blinds',
+    icon: 'blinds.png',
+    tooltip: "We wet wipe your window blinds."
+  }
+];
